@@ -1,11 +1,11 @@
 print('Hello World!!')
 
 import numpy as np
-import math
 import matplotlib.pyplot as plt
 
-x = np.linspace(-1, 1, 100)
-y = math.sin(x)
+x = np.linspace(-5, 5, 100)
+y = np.sin(x)
 
 plt.plot(x, y, 'b-')
+plt.grid(linestyle='--')
 plt.show()
